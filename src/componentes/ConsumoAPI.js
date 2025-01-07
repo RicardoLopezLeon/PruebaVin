@@ -36,7 +36,6 @@ function ConsumoAPI(){
                 <button key={index} value={pokemon.url} onClick={hanndleClick}>
                     {pokemon.name}
                 </button>
-                
             )}
             <div>
                 <img src={Pokemonimg} style={{width:"300px", height:"300px"}}/>
